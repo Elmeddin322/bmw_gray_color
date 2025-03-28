@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: blue;
+  }
+  .header {
+    background: blue;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: -520px;
+  }
+  .fa-car {
+    font-size: inherit;
+    font-family: 'Times New Roman', serif;
+  }
+  .nav ul {
+    list-style: none;
+    display: flex;
+  }
+  .nav ul li {
+    margin-left: 20px;
+  }
+  .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 10px;
+  }
+  .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .content {
+    max-width: 600px;
+  }
+  .content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color:white;
+  }
+  .content p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color:gray;
+  }
+  .buttons .btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-right: 1rem;
+  }
+  .btn.primary {
+    background-color:white;
+    color:blue;
+    border: 2px solid #ddd;
+  }
+  .btn.secondary {
+    color: white;
+    font-size: 25spx;
+    margin-top: -5px;
+  }
+  .image img {
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    margin-left: 730px;
+    margin-top: -250px;
+  }
